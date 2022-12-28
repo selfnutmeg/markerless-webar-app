@@ -229,6 +229,11 @@
     "materials" : [
         {
             "doubleSided" : true,
+            "emissiveFactor" : [
+                0.8900054693222046,
+                0,
+                0
+            ],
             "name" : "red",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
@@ -237,12 +242,17 @@
                     0.0007492485456168652,
                     1
                 ],
-                "metallicFactor" : 0,
+                "metallicFactor" : 0.5963302850723267,
                 "roughnessFactor" : 0.18656715750694275
             }
         },
         {
             "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
             "name" : "White",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
@@ -257,6 +267,11 @@
         },
         {
             "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                0
+            ],
             "name" : "Material.001",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
