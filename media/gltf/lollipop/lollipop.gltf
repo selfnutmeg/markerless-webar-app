@@ -3,12 +3,79 @@
         "generator" : "Khronos glTF Blender I/O v1.8.19",
         "version" : "2.0"
     },
+    "extensionsUsed" : [
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired" : [
+        "KHR_lights_punctual"
+    ],
+    "extensions" : {
+        "KHR_lights_punctual" : {
+            "lights" : [
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 20,
+                    "type" : "point",
+                    "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "type" : "point",
+                    "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.001"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "type" : "point",
+                    "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.002"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "type" : "point",
+                    "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.003"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "type" : "point",
+                    "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.004"
+                }
+            ]
+        }
+    },
     "scene" : 0,
     "scenes" : [
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0,
+                2,
+                4,
+                6,
+                8,
+                10
             ]
         }
     ],
@@ -30,6 +97,131 @@
             "translation" : [
                 0,
                 0.5,
+                0
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 0
+                }
+            },
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a",
+            "translation" : [
+                0,
+                1.6192975044250488,
+                0
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 1
+                }
+            },
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.001_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.001",
+            "translation" : [
+                0,
+                0.8271365165710449,
+                -0.8502290844917297
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 2
+                }
+            },
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.002_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.002",
+            "translation" : [
+                0,
+                0.7979751825332642,
+                0.9491138458251953
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 3
+                }
+            },
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.003_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.003",
+            "translation" : [
+                1.1302626132965088,
+                0.20228298008441925,
+                0
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 4
+                }
+            },
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.004_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "\u0422\u043e\u0447\u0435\u0447\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a.004",
+            "translation" : [
+                -0.9495872259140015,
+                0.07288552075624466,
                 0
             ]
         }
